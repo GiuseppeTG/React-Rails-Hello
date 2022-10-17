@@ -2,7 +2,7 @@
 
 # React-rails-hello
 
-> A simple repo for testing how to run React in a Ror project
+> A simple repo for testing how to run React in a Ror project. It consists on a react component rendering a random greeting message fetched from the '/greetings' API endpoint created with rails. 
 
 
 ## Built With
