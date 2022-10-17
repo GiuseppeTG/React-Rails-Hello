@@ -13,25 +13,30 @@
 
 ## Getting Started
 
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
 Rails 7
+
 Ruby v 3.1.2
 
 ### Setup
 
-- Clone this repo and open it locally
+Clone this repo and open it locally:
+> `git clone git@github.com:GiuseppeTG/React-Rails-Hello.git` 
+
+> `cd React-Rails-Hello`
+
 
 ### Install
 
-- npm i
-- bundle i
+- npm install
+- bundle install
 
 ### Usage
 
+rails db:create db:migrate db:seed
 bin/dev
 
 
