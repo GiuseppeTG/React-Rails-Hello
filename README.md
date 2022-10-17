@@ -1,56 +1,53 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# React-rails-hello
 
-> Description the project.
+> A simple repo for testing how to run React in a Ror project. It consists on a react component rendering a random greeting message fetched from the '/greetings' API endpoint created with rails. 
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- Ruby on rails
+- React
+- Webpack
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+Rails 7
+
+Ruby v 3.1.2
+
 ### Setup
+
+Clone this repo and open it locally:
+> `git clone git@github.com:GiuseppeTG/React-Rails-Hello.git` 
+
+> `cd React-Rails-Hello`
+
 
 ### Install
 
+- npm install
+- bundle install
+
 ### Usage
 
-### Run tests
-
-### Deployment
-
+rails db:create db:migrate db:seed
+bin/dev
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Giuseppe Tomasini**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@GiuseppeTG](https://github.com/GiuseppeTG)
+- Twitter: [@giusetomasini](https://twitter.com/giusetomasini)
+- LinkedIn: [Giuseppe Tomasini](https://www.linkedin.com/in/giuseppe-tomasini-67ba101a8/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -61,12 +58,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
