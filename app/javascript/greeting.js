@@ -9,6 +9,7 @@ export default function Greeting() {
   useEffect(() => {
     dispatch(getGreeting());
   }, []);
+  
   return (
     <>
       <h1>Greeting</h1>
